@@ -125,22 +125,53 @@ data = [
 
 ## 1. Read JSON file provided in the attachment using the dynamic function 
 
+# Output:
+
+
 # 2. flatten the data frame which is a custom schema 
+
+# Output:
+
 
 # 3. find out the record count when flattened and when it's not flattened(find out the difference why you are getting more count) 
 
+# Output:
+
+
 # 4. Differentiate the difference using explode, explode outer, posexplode functions 
+
+
+# Output:
+
 
 # 5. Filter the id which is equal to 0001  
 
+
+# Output:
+
+
 # 6. convert the column names from camel case to snake case 
+
+
+# Output:
+
 
 # 7. Add a new column named load_date with the current date 
 
+
+# Output:
+
+
 # 8. create 3 new columns as year, month, and day from the load_date column 
+
+
+# Output:
+
 
 # 9. write data frame to a table with the Database name as employee and table name as employee_details with overwrite mode, format as JSON and partition based on (year, month, day) using replacing where condition on year, month, day 
 
+
+# Output:
  
 
 # 5. Question 
